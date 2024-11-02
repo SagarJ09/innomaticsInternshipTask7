@@ -18,7 +18,6 @@ const App = () => {
           <NavLink to="/contact" activeClassName="active">Contact</NavLink>
         </nav>
 
-        {/* Routes */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
